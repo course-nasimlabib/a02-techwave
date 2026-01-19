@@ -6,7 +6,7 @@
     <title>TechWave Podcast</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-[#0A0118] text-white font-sans">
     <header>
              <!-- Navbar and Essential Links (part-01) -->
 
@@ -14,18 +14,20 @@
             <div class="max-w-[1200px] mx-auto flex justify-between items-center py-4 px-4">
 
                 
-
-                <h1>
-                    Tech Wave
+                <h1 class="text-2xl font-bold">
+                    Tech<span class="text-purple-500">Wave</span>
                 </h1>
 
-                <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Episodes</a></li>
-                    <li><a href="">Host</a></li>
+
+
+                <ul class="lg:flex gap-8 hidden text-sm opacity-90">
+                    <li><a href="" class="hover:text-purple-400">About</a></li>
+                    <li><a href="" class="hover:text-purple-400">Episodes</a></li>
+                    <li><a href="" class="hover:text-purple-400">Host</a></li>
                 </ul>
 
-                <button>
+
+                <button class="hidden lg:block bg-gradient-to-r from-[#FF8A00] to-[#DA1B60] px-5 py-2 rounded-full text-sm">
                     Subscribe →
                 </button>
 
